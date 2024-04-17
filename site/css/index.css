@@ -1,0 +1,45 @@
+:root {
+    --azul: #002287;
+    --vermelho: #f15652;
+    --off-white: #F2F2F2;
+    --pure-black: #151515;
+    --pure-black-transparent: #202020;
+    --font-defaut: 'Roboto Mono', monospace;
+}
+
+body{
+    margin: 0;
+}
+
+.header {
+    background-color: #002287;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img {
+    width: 8vw;
+    position: relative;
+}
+
+.menu{
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: var(--azul);
+        padding: 10px 10px 10px;
+        color: var(--vermelho);
+        border-radius: 10px;
+    }
+}
+
